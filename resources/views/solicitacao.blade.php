@@ -10,7 +10,7 @@
   <div class="max-w-8xl mx-auto sm:px-8 lg:px-8">
     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-4">
 
-      <h2 class="font-semibold text-xl text-gray-800 leading-tight mb-4">Cadastrar Usuários</h2>
+      <h2 class="font-semibold text-xl text-gray-800 leading-tight mb-4">Cadastrar Solicitação</h2>
 
       <form action="{{ route('solicitacao.store') }}" method="POST">
         @csrf

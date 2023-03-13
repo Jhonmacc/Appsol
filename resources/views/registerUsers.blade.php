@@ -1,10 +1,9 @@
 <x-app-layout>
   <x-slot name="header">
-      <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-          {{ __('Menu Solicitação') }}
-      </h2>
+    <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+      {{ __('Dashboard') }}
+    </h2>
   </x-slot>
-</x-app-layout>
 <style>
   div.bg-white {
    border: 10px solid white;
@@ -55,7 +54,7 @@
 
           <div class="flex items-center justify-end mt-4">
             <x-button class="ml-4">
-              {{ __('Register') }}
+              {{ __('Cadastrar') }}
             </x-button>
           </div>
         </form>

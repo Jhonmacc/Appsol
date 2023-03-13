@@ -28,6 +28,6 @@ class UserController extends Controller
         $user->save();
 
         sleep(3);
-        return redirect()->route('register-users')->with('status', 'Usuário cadastrado com sucesso!');
+        return redirect()->route('register-users.create')->with('status', 'Usuário cadastrado com sucesso!');        
     }
 }
